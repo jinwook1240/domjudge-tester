@@ -12,7 +12,7 @@ import os
 options = Options()
 options.add_argument("--headless")
 USERFORTEST =10 # 톄쓰트할 유저 수
-CORES = 12 # 코어 쑤
+CORES = 10 # 스레드 수
 
 students = []
 lock = threading.Lock()
